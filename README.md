@@ -57,7 +57,7 @@ In case of periodic buying at rate of 40,000 JPY/per month (= 480,000 JPY/per ye
     "mona": 0,
     "bch": 0
   },
-  "interval": 5000
+  "interval": 86400000
 }
 </pre>
 
