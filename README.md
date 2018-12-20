@@ -52,7 +52,7 @@ You need to put integer at
 #### 例 Example
 ひと月当り4万円(=1年あたり48万円)、BTCに33%、ETHに33%、XEMに34%の積立の場合以下の通り。
 In case of periodic buying at rate of 40,000 JPY/per month (= 480,000 JPY/per year), in ratio of BTC:33%, ETH:33% and XEM:34%.
-<pre-json>
+<pre>
 "tsumitate": {
   "per_year": 480000,
   "ratio": {
