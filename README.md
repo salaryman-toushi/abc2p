@@ -44,11 +44,6 @@ Put API key and secret of exchange in "config.json". Never disclose API key and 
 
 ### 各取引所毎の積立金額、積立対象通貨毎の比率の記入 Periodic buying rate and ratio settings
 
-#### 金額 Periodic buying rate
-金額は、年間購入金額をJPYで整数値で入力してください。例えば月々1万円の積立をしたい場合は120000と設定する必要があります。
-You need to put integer at 
-#### 比率 Periodic buying ratio
-取引所内での各通貨毎の積立比率は%で整数値で入力してください。例えば半分をBTC、残り半分をETH等にしたい場合は、それぞれの箇所へ50と設定する必要があります。
 #### 例 Example
 ひと月当り4万円(=1年あたり48万円)、BTCに33%、ETHに33%、XEMに34%の積立の場合以下の通り。
 In case of periodic buying at rate of 40,000 JPY/per month (= 480,000 JPY/per year), in ratio of BTC:33%, ETH:33% and XEM:34%.
@@ -57,10 +52,10 @@ In case of periodic buying at rate of 40,000 JPY/per month (= 480,000 JPY/per ye
   "per_year": 480000,
   "ratio": {
     "btc": 33,
-		"eth": 33,
-		"xem": 34,
-		"mona": 0,
-		"bch": 0
+    "eth": 33,
+    "xem": 34,
+    "mona": 0,
+    "bch": 0
   },
   "interval": 5000
 }
