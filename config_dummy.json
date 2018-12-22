@@ -1,8 +1,8 @@
 {
     "zaif": {
 	    "api": {
-		    "key": "",
-		    "secret": ""
+		    "key": "PUT_YOUR_API_KEY_HERE",
+		    "secret": "PUT_YOUR_API_SECRET_HERE"
 	    },
 	    "fee": {
 		    "btc": {
@@ -27,11 +27,11 @@
 		    }
 	    },
 	    "tsumitate": {
-		    "per_year": 480000,
+		    "per_year": 0,
 		    "ratio": {
-			    "btc": 33,
-			    "eth": 33,
-			    "xem": 34,
+			    "btc": 0,
+			    "eth": 0,
+			    "xem": 0,
 			    "mona": 0,
 			    "bch": 0
 		    },
@@ -40,8 +40,8 @@
     },
     "liquid": {
 	    "api": {
-		    "key": "",
-		    "secret": ""
+		    "key": "PUT_YOUR_API_KEY_HERE",
+		    "secret": "PUT_YOUR_API_SECRET_HERE"
 	    },
 	    "fee": {
 		    "btc": {
@@ -59,15 +59,20 @@
 		    "bch": {
 			    "maker": 0,
 			    "taker": 0
+		    },
+		    "qash": {
+			    "maker": 0,
+			    "taker": 0
 		    }
 	    },
 	    "tsumitate": {
-		    "per_year": 120000,
+		    "per_year": 0,
 		    "ratio": {
 			    "btc": 0,
 			    "eth": 0,
-			    "xrp": 100,
-			    "bch": 0
+			    "xrp": 0,
+			    "bch": 0,
+			    "qash": 0
 		    },
 		    "interval": 86400000
 	    }
