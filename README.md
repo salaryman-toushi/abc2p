@@ -12,9 +12,13 @@ abc2p is Automatic Buying Crypto Currency Programs. You can buy crypto currency 
 Node.jsをインストールします。<br>
 Install "Node.js".
 
+## abc2p
+リリースデータのソースコードの圧縮ファイルを適当なフォルダにダウンロードして解凍します。<br>
+Download release file and unzip it to your PC.
+
 ## npm init
-作業フォルダにて以下コマンドを実行し、全部エンターします。<br>
-In your working directory, execute command bellow and press enter all.
+ダウンロードして解凍したフォルダにて以下コマンドを実行し、全部エンターします。<br>
+In your folder you made unzipping downloaded file, execute command bellow and press enter all.
 <pre>
 npm init
 </pre>
@@ -25,10 +29,6 @@ Install ccxt of npm package. In your working directory, execute command bellow.
 <pre>
 npm install ccxt --save
 </pre>
-
-## abc2p
-このレポジトリを作業フォルダにクローンします。<br>
-Clone this repository to working directory.
 
 # 設定 Configuration
 
@@ -64,6 +64,12 @@ In case of periodic buying at rate of 40,000 JPY/per month (= 480,000 JPY/per ye
 # 実行
 以下コマンドを実行することで、積立が開始します。何もしない場合、24時間毎に自動的な買付けが永続的に実行されます。停止させるには、コマンドラインから「Ctrl」+「C」を入力する等して、強制的に停止してください。
 Execute bellow comand. Then, it makes periodic buying orders every day automatically. If you want to stop the program, Press "Ctrl" + "C".
+## Zaif
 <pre>
 node abc2p-jp-zaif.js
+</pre>
+
+## Liquid
+<pre>
+node abc2p-jp-liquid.js
 </pre>
