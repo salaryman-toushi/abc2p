@@ -15,7 +15,7 @@ const liquid = new ccxt.liquid ({
 
 //定義(積立関係の変数定義)
 const interval = config.liquid.tsumitate.interval    //単位はミリ秒
-const money_per_day = config.liquid.tsumitate.per_year / (365 * 24 * 60 * 60 * 1000 / interval)   //単位はJPY/積立感覚 1日1回積立ならJPY/日だし、config中のintervalの設定しだいでは2日に1回や半日に1回にもできる1日当たりの購入金額
+const money_per_day = config.liquid.tsumitate.per_year / (365 * 24 * 60 * 60 * 1000 / interval)   //単位はJPY/積立間隔 1日1回積立ならJPY/日だし、config中のintervalの設定しだいでは2日に1回や半日に1回等自由に設定可能
 const btc_ratio = config.liquid.tsumitate.ratio.btc   //単位は% BTC購入比率
 const eth_ratio = config.liquid.tsumitate.ratio.eth   //単位は% ETH購入比率
 const xrp_ratio = config.liquid.tsumitate.ratio.xrp   //単位は% QASH購入比率
