@@ -18,7 +18,7 @@ Download release file and unzip it to your PC.
 
 ## npm init
 ダウンロードして解凍したフォルダにて以下コマンドを実行し、全部エンターします。<br>
-In your folder you made unzipping downloaded file, execute command bellow and press enter all.
+In your unzipped folder, execute command bellow and press enter all.
 <pre>
 npm init
 </pre>
@@ -72,4 +72,9 @@ node abc2p-jp-zaif.js
 ## Liquid
 <pre>
 node abc2p-jp-liquid.js
+</pre>
+
+## bitbank
+<pre>
+node abc2p-jp-bitbank.js
 </pre>
