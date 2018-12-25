@@ -24,6 +24,14 @@
 		    "bch": {
 			    "maker": 0,
 			    "taker": 0.3
+		    },
+		    "cms_xem": {
+			    "maker": 0,
+			    "taker": 0.1
+		    },
+		    "cms_eth": {
+			    "maker": 0,
+			    "taker": 0.1
 		    }
 	    },
 	    "tsumitate": {
@@ -33,9 +41,11 @@
 			    "eth": 0,
 			    "xem": 0,
 			    "mona": 0,
-			    "bch": 0
+			    "bch": 0,
+			    "cms_xem": 0,
+			    "cms_eth": 0
 		    },
-		    "interval": 86400000
+	    	"interval": 86400000
 	    }
     },
     "liquid": {
@@ -73,6 +83,40 @@
 			    "xrp": 0,
 			    "bch": 0,
 			    "qash": 0
+		    },
+		    "interval": 86400000
+	    }
+    },
+    "bitbank": {
+	    "api": {
+		    "key": "PUT_YOUR_API_KEY_HERE",
+		    "secret": "PUT_YOUR_API_SECRET_HERE"
+	    },
+	    "fee": {
+		    "btc": {
+			    "maker": -0.05,
+			    "taker": 0.15
+		    },
+		    "xrp": {
+			    "maker": -0.05,
+			    "taker": 0.15
+		    },
+		    "mona": {
+			    "maker": -0.05,
+			    "taker": 0.15
+		    },
+		    "bch": {
+			    "maker": -0.05,
+			    "taker": 0.15
+		    }
+	    },
+	    "tsumitate": {
+		    "per_year": 0,
+		    "ratio": {
+			    "btc": 0,
+			    "xrp": 0,
+			    "mona": 0,
+			    "bch": 0
 		    },
 		    "interval": 86400000
 	    }
